@@ -1,0 +1,22 @@
+{
+  "name": "s03e06-sevice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "knex": "^0.13.0",
+    "morgan": "^1.9.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
