@@ -20,5 +20,11 @@
     "browserify-css": "^0.12.0",
     "budo": "^10.0.4",
     "vueify": "^9.4.1"
+  },
+  "browserify":{
+    "transform":[
+      "vueify",
+      "browserify-css"
+    ]
   }
 }
