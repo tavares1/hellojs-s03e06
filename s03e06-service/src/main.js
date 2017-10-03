@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 
 app.use("/pessoa", require("./features/pessoa").router)
 app.use("/evento", require("./features/evento").router)
-
+app.use("/festas", require("./features/festas").router)
 app.get("/online", (req, res) => res.send("ONLINE"))
 
 exports.start = porta => 
